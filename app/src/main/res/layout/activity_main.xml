@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lll"
+    android:background="#14edd7"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Indian Rupees"
+        android:inputType="numberDecimal"
+        android:layout_margin="20dp"/>
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_margin="20dp">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_margin="20dp"/>
+</LinearLayout>
